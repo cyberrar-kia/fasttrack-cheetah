@@ -25,7 +25,7 @@ export default function Home() {
               </div>
             </div>
             <div className="hero-visual">
-              <Image src="/images/image11.png" alt="All Aboard the FastTrack Phonics Train" width={700} height={420} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 24px 64px rgba(0,0,0,0.4)" }} priority />
+              <Image src="/images/whats-inside-program.png" alt="What's Inside FastTrack Phonics Program" width={700} height={420} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 24px 64px rgba(0,0,0,0.4)" }} priority />
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@ export default function Home() {
         <div className="container">
           <div className="grid-2" style={{ gap:48 }}>
             <div>
-              <Image src="/images/image4.png" alt="Global Literacy Need" width={800} height={450} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 8px 32px rgba(0,0,0,0.08)" }} />
+              <Image src="/images/globe.png" alt="FastTrack Literacy — Global Reach" width={800} height={450} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 8px 32px rgba(0,0,0,0.08)" }} />
             </div>
             <div>
               <div className="section-chip">📊 A Global Need</div>
@@ -98,7 +98,7 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <Image src="/images/image5.png" alt="FastTrack Literacy — Who Is It For" width={500} height={800} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 8px 32px rgba(0,0,0,0.08)" }} />
+              <Image src="/images/mother-child-reading.png" alt="Mother and child reading with FastTrack Phonics" width={500} height={800} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 8px 32px rgba(0,0,0,0.08)" }} />
             </div>
           </div>
         </div>
@@ -133,7 +133,7 @@ export default function Home() {
               <p style={{ fontSize:14, fontStyle:"italic", color:"#F5820A", fontWeight:700, marginTop:16 }}>We are nation builders — one letter at a time!</p>
             </div>
             <div>
-              <Image src="/images/image8.png" alt="More Than a Program" width={600} height={900} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 8px 32px rgba(0,0,0,0.08)" }} />
+              <Image src="/images/what-makes-different.png" alt="What Makes FastTrack Phonics Different" width={600} height={900} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 8px 32px rgba(0,0,0,0.08)" }} />
             </div>
           </div>
         </div>
@@ -184,7 +184,7 @@ export default function Home() {
       <section className="section" style={{ background:"#FFF0E0", textAlign:"center" }}>
         <div className="container-xs">
           <div style={{ marginBottom:16 }}>
-            <Image src="/images/image11.png" alt="FastTrack Phonics Train" width={600} height={180} style={{ width:"100%", maxWidth:500, height:"auto", margin:"0 auto", display:"block" }} />
+            <Image src="/images/train-poster.png" alt="Built Around the FastTrack Train — Speeding Up Reading Successes" width={600} height={400} style={{ width:"100%", maxWidth:500, height:"auto", margin:"0 auto", display:"block" }} />
           </div>
           <h2 style={{ fontSize:"clamp(26px,4vw,42px)", fontWeight:900, color:"#0C2340", marginBottom:16 }}>Ready to Start the Literacy Journey?</h2>
           <p style={{ fontSize:16, color:"#5A5240", lineHeight:1.75, marginBottom:36 }}>Join thousands of educators, parents, and students across Jamaica, the US, and Africa.</p>

@@ -1,16 +1,13 @@
 import Link from "next/link";
+import Image from "next/image";
 export default function Footer() {
   return (
     <footer style={{ background:"#0C2340", color:"rgba(255,255,255,0.7)", paddingTop:60, paddingBottom:30 }}>
       <div style={{ maxWidth:1200, margin:"0 auto", padding:"0 24px" }}>
         <div style={{ display:"grid", gridTemplateColumns:"repeat(auto-fit,minmax(200px,1fr))", gap:40, marginBottom:48 }}>
           <div>
-            <div style={{ display:"flex", alignItems:"center", gap:10, marginBottom:14 }}>
-              <div style={{ width:36, height:36, borderRadius:10, background:"linear-gradient(135deg,#F5820A,#FF9F2F)", display:"flex", alignItems:"center", justifyContent:"center", fontSize:18 }}>🚂</div>
-              <div>
-                <div style={{ fontFamily:"'Nunito',sans-serif", fontWeight:900, fontSize:16, color:"white" }}>FastTrack Literacy<span style={{ color:"#F5820A" }}>™</span></div>
-                <div style={{ fontSize:10, color:"rgba(255,255,255,0.4)" }}>by CHEETAH®</div>
-              </div>
+            <div style={{ display:"flex", alignItems:"center", gap:14, marginBottom:14 }}>
+              <Image src="/images/fasttrack-logo.png" alt="FastTrack Phonics" width={140} height={42} style={{ height:42, width:"auto", objectFit:"contain", filter:"brightness(0) invert(1)" }} />
             </div>
             <p style={{ fontSize:13, lineHeight:1.7, maxWidth:240, marginBottom:16 }}>Every child can read. Every child must read. — Paulette Trowers-Lawrence, JD</p>
             <div style={{ display:"flex", gap:8 }}>

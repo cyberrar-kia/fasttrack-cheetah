@@ -60,7 +60,7 @@ export default function FastTrackPage() {
               </div>
             </div>
             <div style={{ background:"rgba(255,255,255,0.08)", border:"1px solid rgba(255,255,255,0.15)", borderRadius:20, padding:36, display:"flex", alignItems:"center", justifyContent:"center" }}>
-              <Image src="/images/image11.png" alt="All Aboard the FastTrack Phonics Train" width={700} height={420} style={{ width:"100%", height:"auto", borderRadius:16 }} />
+              <Image src="/images/train-poster.png" alt="Built Around the FastTrack Train — Speeding Up Reading Successes" width={600} height={800} style={{ width:"100%", height:"auto", borderRadius:16 }} />
             </div>
           </div>
         </div>
