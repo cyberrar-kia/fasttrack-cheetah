@@ -69,7 +69,7 @@ export default function Home() {
             <div>
               <div className="section-chip">📊 A Global Need</div>
               <h2 style={{ fontSize:"clamp(24px,3.5vw,36px)", fontWeight:900, color:"#0C2340", marginBottom:16 }}>Why Early Literacy Matters</h2>
-              <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>According to <strong>UNESCO (2023)</strong>, over <strong>770 million people</strong> globally lack basic literacy skills. In the US alone, <strong>37% of fourth-graders</strong> read below basic levels — limiting their ability to succeed across subjects.</p>
+              <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:16 }}>According to <strong>UNESCO (2023)</strong>, over <strong>770 million people</strong> globally lack basic literacy skills. In the US, <strong>37% of fourth-graders</strong> read below basic levels. In Jamaica, less than <strong>50% of Grade 4 students</strong> meet literacy standards. In Uganda, only <strong>3 in 10 Primary 3 children</strong> can read a simple English story.</p>
               <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.85, marginBottom:24 }}>FastTrack Literacy™ was created to build strong foundations early, before gaps widen. We are connecting home and school for literacy growth!</p>
               <div style={{ background:"#FFF0E0", borderLeft:"4px solid #F5820A", padding:"16px 20px", borderRadius:"0 12px 12px 0" }}>
                 <p style={{ fontSize:14, fontStyle:"italic", color:"#0C2340", lineHeight:1.7 }}>"When children struggle to read, they fall behind in school, lose confidence, and face long-term academic and economic challenges."</p>

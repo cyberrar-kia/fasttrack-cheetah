@@ -67,7 +67,30 @@ export default function Resources() {
           <div style={{ textAlign:"center", marginBottom:40 }}>
             <h2 style={{ fontSize:"clamp(22px,4vw,34px)", fontWeight:900, color:"#0C2340" }}>All Resources</h2>
           </div>
-          {/* Phonics Chart */}
+
+          {/* iCHEETAH SECTION */}
+          <div className="grid-2" style={{ marginBottom:48, gap:40, alignItems:"center" }}>
+            <div>
+              <div className="section-chip">🤖 AI Technology</div>
+              <h3 style={{ fontFamily:"'Nunito',sans-serif", fontWeight:900, fontSize:24, color:"#0C2340", marginBottom:14 }}>Meet iCHEETAH™</h3>
+              <p style={{ fontSize:15, color:"#5A5240", lineHeight:1.8, marginBottom:14 }}>Our patent-pending, AI-powered Smart Edutainment Robot for Kids — the Teacher&apos;s Helper and Your Child&apos;s Learning Companion. Especially effective for children with visual impairments, speech delays, or limited motor skills.</p>
+              <div style={{ display:"flex", flexDirection:"column", gap:8, marginBottom:20 }}>
+                {["🎙️ Voice assistant — just say iCHEETAH™","📱 Preloaded educational apps","🎵 Sing-along with two microphones","📺 Cast to TV for classroom activities","🎮 Explore shapes, numbers & colours","📚 STEM literacy & learning kits"].map(f=>(
+                  <div key={f} style={{ fontSize:13, color:"#5A5240", display:"flex", gap:8 }}><span>{f}</span></div>
+                ))}
+              </div>
+              <div style={{ background:"#FFF0E0", borderLeft:"4px solid #F5820A", padding:"14px 18px", borderRadius:"0 10px 10px 0" }}>
+                <p style={{ fontSize:13, color:"#0C2340", lineHeight:1.7 }}><strong>Inclusive design:</strong> Audio narration, interactive touchscreens, and adaptive features ensure no child is left behind — including those with disabilities or learning challenges.</p>
+              </div>
+            </div>
+            <div style={{ display:"grid", gridTemplateColumns:"1fr", gap:14 }}>
+              <Image src="/images/icheetah-frontal.png" alt="iCHEETAH Robot" width={400} height={500} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 8px 32px rgba(0,0,0,0.1)" }} />
+            </div>
+          </div>
+          <div style={{ marginBottom:48 }}>
+            <Image src="/images/icheetah-features.png" alt="iCHEETAH Features" width={1200} height={600} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 8px 32px rgba(0,0,0,0.08)" }} />
+          </div>
+          {/* Books */}
           <div className="grid-2" style={{ marginBottom:48, gap:40, alignItems:"center" }}>
             <div>
               <div className="section-chip">📊 Featured Resource</div>
