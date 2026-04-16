@@ -84,7 +84,7 @@ export default function Resources() {
               </div>
             </div>
             <div style={{ display:"grid", gridTemplateColumns:"1fr", gap:14 }}>
-              <Image src="/images/icheetah-frontal.png" alt="iCHEETAH Robot" width={400} height={500} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 8px 32px rgba(0,0,0,0.1)" }} />
+              <Image src="/images/icheetah-frontal.png" alt="iCHEETAH™ Robot — Frontal View" width={400} height={500} style={{ width:"100%", height:"auto", borderRadius:16, boxShadow:"0 8px 32px rgba(0,0,0,0.1)" }} />
             </div>
           </div>
           <div style={{ marginBottom:48 }}>
